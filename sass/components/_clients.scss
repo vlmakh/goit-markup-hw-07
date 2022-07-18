@@ -1,0 +1,28 @@
+/* -------- Постоянные клиенты ------------ */
+.clients {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.client__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: #afb1b8;
+
+    transition: color $duration $timing-function,
+        border-color $duration $timing-function;
+
+    &:hover,
+    &:focus {
+        color: $color-main-blue;
+        border-color: $color-main-blue;
+    }
+}
+
