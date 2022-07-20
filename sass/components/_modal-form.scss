@@ -53,7 +53,7 @@
     transition: color $duration $timing-function;
 
     &:hover, &:focus {
-        color: $color-main-blue;
+        color: $color-accent;
         }
 }
 
@@ -104,7 +104,7 @@
     transition: border-color $duration $timing-function;
 
     &:focus {
-        border-color: $color-main-blue;
+        border-color: $color-accent;
         outline: none;
     }
 
@@ -120,7 +120,7 @@
     transition: color $duration $timing-function;
 
     .form__input:focus+& {
-        color: $color-main-blue;
+        color: $color-accent;
         }
 }
 
@@ -137,7 +137,7 @@
     transition: border-color $duration $timing-function;
 
     &:focus {
-        border-color: $color-main-blue;
+        border-color: $color-accent;
         outline: none;
     }
 
@@ -165,11 +165,11 @@
 }
 
 .policy-agree__link  {
-    color: $color-main-blue;
+    color: $color-accent;
     margin-left: 5px;
 
     &:visited {
-        color: $color-main-blue;
+        color: $color-accent;
         margin-left: 5px;
     }
 
@@ -188,12 +188,12 @@
     border-radius: 2px;
 
     .policy-checkbox:focus-visible+& {
-        box-shadow: 0 0 0 2px $color-main-blue;
+        box-shadow: 0 0 0 2px $color-accent;
     }
 
     .policy-checkbox:checked+& {
         border: 0;
-        background-color: $color-main-blue;
+        background-color: $color-accent;
         background-image: url("data:image/svg+xml,%3Csvg width='16' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='16' height='15' rx='2' fill='none'/%3E%3Cpath d='m3.957 7.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z' fill='%23fff' stroke='%23fff' stroke-width='.2'/%3E%3C/svg%3E");
     }
 }

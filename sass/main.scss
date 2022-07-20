@@ -1,11 +1,11 @@
 @import './base/fonts';
 @import './base/normalize';
-@import './base/body';
-
 @import './utils/variables';
+
 @import './utils/visually-hidden';
 @import './utils/placeholders';
 
+@import './components/body';
 @import './components/logo';
 @import './components/page-header';
 @import './components/page-header-nav';

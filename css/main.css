@@ -256,11 +256,47 @@ summary {
   display: list-item;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button-filter, .button-signus, .button-order {
+  height: 50px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.join-us__link, .join-me__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
 html,
 body {
   background-color: #ffffff;
-  color: var(--color-main-black);
-  font-family: Roboto, sans-serif;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -304,44 +340,8 @@ img {
   padding-right: 15px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.button-filter, .button-signus, .button-order {
-  height: 50px;
-  border-radius: 4px;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  cursor: pointer;
-  border: none;
-}
-
-.join-us__link, .join-me__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
-
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -1131,16 +1131,17 @@ img {
 }
 
 .product__name {
-  line-height: 1.14;
+  font-size: 18px;
+  line-height: 2;
   text-align: left;
-  text-transform: uppercase;
 }
 
 .product__label {
-  line-height: 1.71;
+  font-size: 16px;
+  line-height: 1.88;
   text-align: left;
   color: #757575;
-  margin-top: 10px;
+  margin-top: 4px;
 }
 
 .product__descr {

@@ -1,7 +1,7 @@
 // -------------  НАША КОМАНДА  -------------
 .section-team {
     @extend .section;
-    background: $color-bcg-grey;
+    background: $color-bcg;
 }
 
 .team-list {
@@ -39,7 +39,7 @@
     font-size: 16px;
     text-align: center;
     line-height: 1.19;
-    color: $color-text-grey;
+    color: $color-secondary;
     margin-top: 10px;
 }
 
@@ -62,7 +62,7 @@
     &:hover,
     &:focus {
         color: #ffffff;
-        background-color: $color-main-blue;
+        background-color: $color-accent;
         }
 }
 

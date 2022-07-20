@@ -1,8 +1,8 @@
 html,
 body {
     background-color: #ffffff;
-    color: var(--color-main-black);
-    font-family: Roboto, sans-serif;
+    color: $color-primary;
+    font-family: $font-basic;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
