@@ -30,16 +30,13 @@
 .product-list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
-    margin-bottom: -30px;
+    gap: $portfolio-gap;    
     list-style: none;
 }
 
 .product-list__item {
     border: 1px solid #eeeeee;
-    width: calc(100% / 3 - 30px);
-    margin-left: 30px;
-    margin-bottom: 30px;
+    width: calc((100% - 2 * $portfolio-gap) / 3);    
 }
 
 .product__thumb {
